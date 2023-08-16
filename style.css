@@ -20,6 +20,7 @@
     --space_1to4: clamp(1.00rem, calc(-4.57rem + 11.43vw), 4.00rem);
     --space_1to6: clamp(1.00rem, calc(-8.29rem + 19.05vw), 6.00rem);
     --space_1to8: clamp(1.00rem, calc(-12.00rem + 26.67vw), 8.00rem);
+    --space_3to9: clamp(3.00rem, calc(-8.14rem + 22.86vw), 9.00rem);
 
     /*FONTS*/
 
@@ -292,6 +293,7 @@ img{
     .presentation{ 
         background: url(./images/bg-hero-desktop.svg) no-repeat 100%,
                   #edfbfe;
+        margin-bottom: var(--space_3to9);
     }
 
     .header-container{
